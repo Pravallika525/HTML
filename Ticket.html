@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TSRTC General Bus Pass Application</title>
+</head>
+<body>
+<form > 
+     <fieldset>
+        <center>
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/05/TSRTC_LOGO.png" alt="tsrtc" width="50px
+            ">
+                 <b><h1 >TELANGANA STATE ROAD TRANSPORT CORPORATION</h1></b>
+              <b> <h2>GENERAL BUS PASS APPLICATION</h2></b>
+            </center></fieldset>
+    <fieldset>
+        <legend><b>Applicant Details</b></legend>
+
+            <label>Name </label>
+            <input type="text" name="name" maxlength="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>Father's / Guardian's Name </label>
+            <input type="text" name="guardian_name"><br><br>
+
+            <label>Date of Birth (dd/mm/yyyy) *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <input type="date" name="dob">
+
+            <label>Gender *</label>
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Male"> Male<br><br>
+
+            <label>Age As on</label>&nbsp;
+            <input type="text" name="age_years" size="4"> Year(s)
+            <input type="text" name="age_months" size="4"> Month(s)
+            <input type="text" name="age_days" size="4"> Day(s)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>Aadhaar No</label>
+            <input type="text" name="aadhaar"><br><br>
+            <label>WhatsApp No *</label>
+            <input type="text" name="whatsapp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>Email ID *</label>
+            <input type="email" name="email"><br><br>
+            <label>Upload Photo</label>
+            <input type="file" name="photo"><br><br>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend><b>Resdentlal Address Detalls</b></legend>
+
+            <label>Applicant's Address </label>
+            <input type="text" name="address" maxlength="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>District </label>
+            <select name="district">
+        <option>HYDERABAD</option> </select><br><br>
+           
+        <label for="mandal">Mandal </label>
+        <select name="mandal" id="mandal">
+            <option >HYDERABAD</option></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="village">Village</label>
+        <select name="mandal" id="village">
+            <option >HYDERABAD</option>
+        </select><br><br>
+        <label for="pincode">PinCode:</label>
+        <input type="text" id="pincode" maxlength="6">
+                </fieldset>
+               
+                    <fieldset>
+                        <legend><b>Pass Details</b></legend>
+                        <label for="city" id="city">City</label>
+                        <select name="city" id="city">
+                            <option value="HYDERABAD">HYDERABAD</option>
+                        </select> <br><br>
+                        <label for="pass">Pass Type</label>
+                        <select name="pass" id="pass">
+                            <option value="--select--">--select--</option>
+                            <option value="--select--">HYDERABAD</option>
+                        </select>
+                    </fieldset>
+                     <fieldset>
+                        <legend><b>Mode of Payment And Pass Collection</b></legend>
+                        <label for="pm" id="pm">Payment Mode</label>
+                        <select name="pm" id="pm">
+                            <option >Select payment Mode</option>
+                             <option >Payment at Count</option>
+                        </select> <br><br>
+                        <label for="pass">Pass Delivery Mode</label>
+                        <select name="pass" id="pass">
+                            <option value="--select--">select Pass Delivery Mode</option>
+                            <option value="--select--"> select Payment at Count</option>
+                        </select><br><br>
+                        <label >Center at which you want to collect pass</label>
+                        <select> 
+                            <option >--select--</option>
+                            <option >rtc-hy</option>
+                        </select>
+
+                    </fieldset>
+                    <br><br>
+
+                    <center>
+                        <img src="https://user-images.githubusercontent.com/25476729/63083566-a8bc6880-bf66-11e9-82cc-9609c2fd8929.png" alt="chacpa" width="200px"> <br><br>
+                        <input type="text"> <br><br>
+                    <input type="submit" value="submit" width="100px">
+                    </center>
+                </form>
